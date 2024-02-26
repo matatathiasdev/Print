@@ -46,13 +46,14 @@ def Print():
     if util.find_spec("pyautogui") is not None:
         from pyautogui import press
         press("ctrl")
+        # press("a")
         time.sleep(120)
     else:
         subprocess.check_call(["pip", "install", pacote])
         from pyautogui import press
         press("ctrl")
+        # press("a")
         time.sleep(120)
-
 # VALOR INICIAL
 valor = LerTxt()
 
