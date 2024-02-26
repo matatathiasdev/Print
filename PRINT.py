@@ -67,3 +67,4 @@ while valor == '1':
     
 print('Print finalizado')
 time.sleep(10)
+## certo
